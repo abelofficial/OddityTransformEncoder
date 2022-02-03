@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oddity.Core.Test", "Oddity.Core.Test\Oddity.Core.Test.csproj", "{C519FADA-9815-45BC-B8BF-40AEA49D4BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oddity.Core", "Oddity.Core\Oddity.Core.csproj", "{F3E0057F-D2CF-41A3-86B2-7E6852AEB060}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C519FADA-9815-45BC-B8BF-40AEA49D4BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C519FADA-9815-45BC-B8BF-40AEA49D4BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C519FADA-9815-45BC-B8BF-40AEA49D4BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C519FADA-9815-45BC-B8BF-40AEA49D4BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E0057F-D2CF-41A3-86B2-7E6852AEB060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E0057F-D2CF-41A3-86B2-7E6852AEB060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E0057F-D2CF-41A3-86B2-7E6852AEB060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E0057F-D2CF-41A3-86B2-7E6852AEB060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
