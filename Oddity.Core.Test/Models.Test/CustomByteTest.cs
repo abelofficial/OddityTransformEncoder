@@ -9,8 +9,8 @@ namespace Oddity.Core.Test
         public void should_be_able_to_create_instance_by_providing_base_and_value()
         {
             // Arrange
-            var base3 = new CustomBitGenerator(3, 8);
-
+            var base3 = new CustomLengthByte(3, 8);
+            // Assert
             base3.Should().NotBe(null);
         }
 
@@ -21,9 +21,8 @@ namespace Oddity.Core.Test
         public void should_be_able_to_create_a_correct_bit_array(int value, bool[] bitArray)
         {
             // Arrange
-            var base4 = new CustomBitGenerator(4, value);
-
-
+            var base4 = new CustomLengthByte(4, value);
+            // Assert
             base4.BitArray.Should().BeEquivalentTo(bitArray);
         }
     }

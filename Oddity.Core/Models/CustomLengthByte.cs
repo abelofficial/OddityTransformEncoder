@@ -1,14 +1,14 @@
 namespace Oddity.Core
 {
 
-    public class CustomBitGenerator
+    public class CustomLengthByte
     {
         public bool[] BitArray { get; private set; }
         public int Base { get; private set; }
         public int Value { get; private set; }
 
 
-        public CustomBitGenerator(int byteBase, int value)
+        public CustomLengthByte(int byteBase, int value)
         {
             this.Base = byteBase;
             this.Value = value;
