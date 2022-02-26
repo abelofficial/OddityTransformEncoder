@@ -10,6 +10,8 @@ namespace Oddity.Core
 
         public CustomLengthByte(int byteBase, int value)
         {
+            if (Math.Pow(2, byteBase) <= value)
+                throw new ArgumentException($"Byte base {byteBase} can only present numbers from 0 - {Math.Pow(2, byteBase)}");
             this.Base = byteBase;
             this.Value = value;
             this.BitArray = this.generateBitArray();
