@@ -7,9 +7,9 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Oddity.Core.Test/Oddity.Core.Test.csproj",
+                "${workspaceFolder}/OddityTransformEncoder.sln",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -19,9 +19,9 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Oddity.Core.Test/Oddity.Core.Test.csproj",
+                "${workspaceFolder}/OddityTransformEncoder.sln",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Oddity.Core.Test/Oddity.Core.Test.csproj"
+                "${workspaceFolder}/OddityTransformEncoder.sln"
             ],
             "problemMatcher": "$msCompile"
         }
